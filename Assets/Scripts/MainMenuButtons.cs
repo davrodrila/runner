@@ -9,11 +9,28 @@ public class MainMenuButtons : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+
+        btnPlay.onClick.AddListener(play);
+        btnOptions.onClick.AddListener(options);
+        btnExit.onClick.AddListener(exit);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
+
+    void play()
+    {
+        
+    }
+
+    void options()
+    {
+
+    }
+    void exit()
+    {
+
+    }
 }
