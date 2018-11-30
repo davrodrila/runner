@@ -8,4 +8,5 @@ public class Utils : MonoBehaviour {
     public static string SCENE_PLAY = "Play";
     public static string SCENE_OPTIONS = "Options";
 
+    public static string temporal = "HOLA";
 }
