@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: e62480529e0dfda478dd7f3e969c5095
+timeCreated: 1544809355
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: boss_Arms_Geo
+    100002: boss_Cigar_Geo
+    100004: boss_Hat_Geo
+    100006: boss_Head
+    100008: boss_Head_Geo
+    100010: boss_HeadTop_End
+    100012: boss_Hips
+    100014: boss_Jacket_Geo
+    100016: boss_L_Eye_Geo
+    100018: boss_LeftArm
+    100020: boss_LeftFoot
+    100022: boss_LeftFootToeBase_End
+    100024: boss_LeftForeArm
+    100026: boss_LeftHand
+    100028: boss_LeftHandIndex1
+    100030: boss_LeftHandIndex2
+    100032: boss_LeftHandIndex3
+    100034: boss_LeftHandIndex4
+    100036: boss_LeftHandIndex5
+    100038: boss_LeftHandMiddle1
+    100040: boss_LeftHandMiddle2
+    100042: boss_LeftHandMiddle3
+    100044: boss_LeftHandMiddle4
+    100046: boss_LeftHandMiddle5
+    100048: boss_LeftHandPinky1
+    100050: boss_LeftHandPinky2
+    100052: boss_LeftHandPinky3
+    100054: boss_LeftHandPinky4
+    100056: boss_LeftHandPinky5
+    100058: boss_LeftHandRing1
+    100060: boss_LeftHandRing2
+    100062: boss_LeftHandRing3
+    100064: boss_LeftHandRing4
+    100066: boss_LeftHandRing5
+    100068: boss_LeftHandThumb1
+    100070: boss_LeftHandThumb2
+    100072: boss_LeftHandThumb3
+    100074: boss_LeftHandThumb4
+    100076: boss_LeftHandThumb5
+    100078: boss_LeftLeg
+    100080: boss_LeftShoulder
+    100082: boss_LeftToeBase
+    100084: boss_LeftUpLeg
+    100086: boss_Meshes
+    100088: boss_Neck
+    100090: boss_Neck1
+    100092: boss_Pants_Geo
+    100094: boss_R_Eye_Geo
+    100096: boss_RightArm
+    100098: boss_RightFoot
+    100100: boss_RightFootToeBase_End
+    100102: boss_RightForeArm
+    100104: boss_RightHand
+    100106: boss_RightHandIndex1
+    100108: boss_RightHandIndex2
+    100110: boss_RightHandIndex3
+    100112: boss_RightHandIndex4
+    100114: boss_RightHandIndex5
+    100116: boss_RightHandMiddle1
+    100118: boss_RightHandMiddle2
+    100120: boss_RightHandMiddle3
+    100122: boss_RightHandMiddle4
+    100124: boss_RightHandMiddle5
+    100126: boss_RightHandPinky1
+    100128: boss_RightHandPinky2
+    100130: boss_RightHandPinky3
+    100132: boss_RightHandPinky4
+    100134: boss_RightHandPinky5
+    100136: boss_RightHandRing1
+    100138: boss_RightHandRing2
+    100140: boss_RightHandRing3
+    100142: boss_RightHandRing4
+    100144: boss_RightHandRing5
+    100146: boss_RightHandThumb1
+    100148: boss_RightHandThumb2
+    100150: boss_RightHandThumb3
+    100152: boss_RightHandThumb4
+    100154: boss_RightHandThumb5
+    100156: boss_RightLeg
+    100158: boss_RightShoulder
+    100160: boss_RightToeBase
+    100162: boss_RightUpLeg
+    100164: boss_Shoes_Geo
+    100166: boss_Spine
+    100168: boss_Spine1
+    100170: boss_Spine2
+    100172: boss_Teeth_Down_Geo
+    100174: boss_Teeth_Up_Geo
+    100176: //RootNode
+    400000: boss_Arms_Geo
+    400002: boss_Cigar_Geo
+    400004: boss_Hat_Geo
+    400006: boss_Head
+    400008: boss_Head_Geo
+    400010: boss_HeadTop_End
+    400012: boss_Hips
+    400014: boss_Jacket_Geo
+    400016: boss_L_Eye_Geo
+    400018: boss_LeftArm
+    400020: boss_LeftFoot
+    400022: boss_LeftFootToeBase_End
+    400024: boss_LeftForeArm
+    400026: boss_LeftHand
+    400028: boss_LeftHandIndex1
+    400030: boss_LeftHandIndex2
+    400032: boss_LeftHandIndex3
+    400034: boss_LeftHandIndex4
+    400036: boss_LeftHandIndex5
+    400038: boss_LeftHandMiddle1
+    400040: boss_LeftHandMiddle2
+    400042: boss_LeftHandMiddle3
+    400044: boss_LeftHandMiddle4
+    400046: boss_LeftHandMiddle5
+    400048: boss_LeftHandPinky1
+    400050: boss_LeftHandPinky2
+    400052: boss_LeftHandPinky3
+    400054: boss_LeftHandPinky4
+    400056: boss_LeftHandPinky5
+    400058: boss_LeftHandRing1
+    400060: boss_LeftHandRing2
+    400062: boss_LeftHandRing3
+    400064: boss_LeftHandRing4
+    400066: boss_LeftHandRing5
+    400068: boss_LeftHandThumb1
+    400070: boss_LeftHandThumb2
+    400072: boss_LeftHandThumb3
+    400074: boss_LeftHandThumb4
+    400076: boss_LeftHandThumb5
+    400078: boss_LeftLeg
+    400080: boss_LeftShoulder
+    400082: boss_LeftToeBase
+    400084: boss_LeftUpLeg
+    400086: boss_Meshes
+    400088: boss_Neck
+    400090: boss_Neck1
+    400092: boss_Pants_Geo
+    400094: boss_R_Eye_Geo
+    400096: boss_RightArm
+    400098: boss_RightFoot
+    400100: boss_RightFootToeBase_End
+    400102: boss_RightForeArm
+    400104: boss_RightHand
+    400106: boss_RightHandIndex1
+    400108: boss_RightHandIndex2
+    400110: boss_RightHandIndex3
+    400112: boss_RightHandIndex4
+    400114: boss_RightHandIndex5
+    400116: boss_RightHandMiddle1
+    400118: boss_RightHandMiddle2
+    400120: boss_RightHandMiddle3
+    400122: boss_RightHandMiddle4
+    400124: boss_RightHandMiddle5
+    400126: boss_RightHandPinky1
+    400128: boss_RightHandPinky2
+    400130: boss_RightHandPinky3
+    400132: boss_RightHandPinky4
+    400134: boss_RightHandPinky5
+    400136: boss_RightHandRing1
+    400138: boss_RightHandRing2
+    400140: boss_RightHandRing3
+    400142: boss_RightHandRing4
+    400144: boss_RightHandRing5
+    400146: boss_RightHandThumb1
+    400148: boss_RightHandThumb2
+    400150: boss_RightHandThumb3
+    400152: boss_RightHandThumb4
+    400154: boss_RightHandThumb5
+    400156: boss_RightLeg
+    400158: boss_RightShoulder
+    400160: boss_RightToeBase
+    400162: boss_RightUpLeg
+    400164: boss_Shoes_Geo
+    400166: boss_Spine
+    400168: boss_Spine1
+    400170: boss_Spine2
+    400172: boss_Teeth_Down_Geo
+    400174: boss_Teeth_Up_Geo
+    400176: //RootNode
+    4300000: boss_Jacket_Geo
+    4300002: boss_Shoes_Geo
+    4300004: boss_Cigar_Geo
+    4300006: boss_Head_Geo
+    4300008: boss_Teeth_Up_Geo
+    4300010: boss_Hat_Geo
+    4300012: boss_R_Eye_Geo
+    4300014: boss_L_Eye_Geo
+    4300016: boss_Teeth_Down_Geo
+    4300018: boss_Pants_Geo
+    4300020: boss_Arms_Geo
+    7400000: Saltar
+    9500000: //RootNode
+    13700000: boss_Arms_Geo
+    13700002: boss_Cigar_Geo
+    13700004: boss_Hat_Geo
+    13700006: boss_Head_Geo
+    13700008: boss_Jacket_Geo
+    13700010: boss_L_Eye_Geo
+    13700012: boss_Pants_Geo
+    13700014: boss_R_Eye_Geo
+    13700016: boss_Shoes_Geo
+    13700018: boss_Teeth_Down_Geo
+    13700020: boss_Teeth_Up_Geo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Saltar
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.37560976
+        functionName: finalizarAnimacion
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
