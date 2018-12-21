@@ -37,4 +37,9 @@ public class ControlJugador : ControladorBasico {
     {
         Time.timeScale = 0f;
     }
+
+    public override void juegoRestaurado()
+    {
+        Time.timeScale = 1f;
+    }
 }

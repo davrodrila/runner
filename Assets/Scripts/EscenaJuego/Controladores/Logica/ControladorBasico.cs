@@ -10,4 +10,5 @@ public abstract class ControladorBasico : MonoBehaviour {
     }
 
     public abstract void juegoEnPausa();
+    public abstract void juegoRestaurado();
 }

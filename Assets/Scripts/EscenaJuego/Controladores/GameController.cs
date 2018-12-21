@@ -8,7 +8,7 @@ using UnityEngine;
  */
 public class GameController : MonoBehaviour {
 
-    private EstadoJuego estado;
+    public EstadoJuego estado;
     public List<ControladorBasico> controladores;
     public static GameController controlador;
 
@@ -17,18 +17,26 @@ public class GameController : MonoBehaviour {
      */
     void Awake()
     {
-        controlador = new GameController();
+        if (controlador == null)        
+            controlador = this;
+        else if (controlador != this)
+            Destroy(gameObject);
     }
 
 	void Start () {
         controladores = new List<ControladorBasico>();
-	}
+        estado = EstadoJuego.Jugando;
+    }
 
     void Update () {
 		if (Input.GetKeyDown(KeyCode.P))
         {
-        
-            pausarJuego();
+            if (estado == EstadoJuego.Jugando) { 
+                pausarJuego();
+            } else if (estado == EstadoJuego.Pausa)
+            {
+                restaurarJuego();
+            }
         }
 	}
     void pausarJuego()
@@ -39,9 +47,21 @@ public class GameController : MonoBehaviour {
             c.juegoEnPausa();
         }
     }
+
+    void restaurarJuego()
+    {
+        estado = EstadoJuego.Jugando;
+        foreach (ControladorBasico c in controladores)
+        {
+            c.juegoRestaurado();
+        }
+    }
     public void registrarControlador(ControladorBasico controlador)
     {
-        Debug.Log(controlador);
+        if (controladores==null)
+        {
+            controladores = new List<ControladorBasico>();
+        }
         controladores.Add(controlador);
     }
 }
