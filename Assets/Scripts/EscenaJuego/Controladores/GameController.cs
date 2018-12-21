@@ -21,10 +21,10 @@ public class GameController : MonoBehaviour {
             controlador = this;
         else if (controlador != this)
             Destroy(gameObject);
+        controladores = new List<ControladorBasico>();
     }
 
 	void Start () {
-        controladores = new List<ControladorBasico>();
         estado = EstadoJuego.Jugando;
     }
 
@@ -57,11 +57,7 @@ public class GameController : MonoBehaviour {
         }
     }
     public void registrarControlador(ControladorBasico controlador)
-    {
-        if (controladores==null)
-        {
-            controladores = new List<ControladorBasico>();
-        }
+    {   
         controladores.Add(controlador);
     }
 }
